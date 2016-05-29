@@ -24,6 +24,6 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
-    "teeworlds-info": "^1.1.0"
+    "teeworlds-econ": "^1.2.0"
   }
 }
