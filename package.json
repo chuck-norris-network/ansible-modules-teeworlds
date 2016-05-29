@@ -1,0 +1,14 @@
+{
+  "name": "ansible-modules-teeworlds",
+  "version": "0.0.0",
+  "description": "Ansible modules for Teeworlds",
+  "keywords": [
+    "ansible",
+    "teeworlds"
+  ],
+  "author": "Black Roland (https://github.com/black-roland)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^2.10.0"
+  }
+}
