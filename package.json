@@ -1,6 +1,6 @@
 {
   "name": "ansible-modules-teeworlds",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Ansible modules for Teeworlds",
   "keywords": [
     "ansible",
