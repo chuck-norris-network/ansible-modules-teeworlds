@@ -12,11 +12,11 @@ failed 'Undefined password' if !args.password
 econ = new TeeworldsEcon args.host, args.port, args.password
 
 econ.on 'online', () ->
-  econ.exec args.command
-
-  setTimeout () ->
-    changed args.command
+  econ.exec(args.command).then (result) ->
+    changed result
     econ.disconnect()
-  , 1000
+  .catch (err) ->
+    failed err.message
+    econ.disconnect()
 
 econ.connect { retryCount: 0 }
